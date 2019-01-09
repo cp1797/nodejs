@@ -19,7 +19,7 @@ app.get('/',(req,res)=>
 {
     res.render('index.hbs',
         {
-            text1: 'Hi there this is KRITIKA',
+            text1: 'Hi there this is Craig',
             currentYear: new Date().getFullYear()
         }
     );
